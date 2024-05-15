@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+
+
+
+    <!-- breadcrumb start -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="page-title">
+                        <h2>cart</h2>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <nav aria-label="breadcrumb" class="theme-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+                            <li class="breadcrumb-item active">cart</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb End -->
+
+
+    <!--section start-->
+    <section class="cart-section section-b-space">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <table class="table cart-table table-responsive-xs">
+                        {% include 'includes/message.html' %}
+                        <thead>
+                            <tr class="table-head">
+                                <th scope="col">image</th>
+                                <th scope="col">product name</th>
+                                <th scope="col">price</th>
+                                <th scope="col">quantity</th>
+                                <th scope="col">action</th>
+                                <th scope="col">total</th>
+                            </tr>
+                        </thead>
+                        
+                        {% for cart in cart %}
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href={{cart.product.get_absolute_url}}><img src="{{cart.product.cover_image.url}}" alt=""></a>
+                                </td>
+                                <td><a href={{cart.product.get_absolute_url}}>{{cart.product.title}}</a>
+                                    <div class="mobile-cart-content row">
+                                        <div class="col-xs-3">
+                                            <div class="qty-box">
+                                                <div class="input-group">
+                                                    <input type="text" name="quantity" class="form-control input-number"
+                                                        value="1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <h2 class="td-color">${{cart.product.price}}</h2>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <h2 class="td-color"><a href="#" class="icon" ><i class="ti-close"></i></a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <h2>${{cart.product.price}}</h2>
+                                </td>
+                                <td>
+                                    <div class="qty-box">
+                                        <div class="input-group">
+                                            {% if cart %}
+                                                <input type="number" name="quantity" class="form-control input-number" value="{{ cart.quantity }}" min="1">
+                                            {% else %}
+                                                <input type="number" name="quantity" class="form-control input-number" value="1" min="1">
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><a href="{% url 'remove_from_cart' cart.product.id %}" class="icon remove-from-cart"  ><i class="ti-close"></i></a></td>
+                            
+                                
+                                <td>
+                                    <h2 class="td-color">${{cart.total_price}}</h2>
+                                </td>
+                            </tr>
+                        </tbody>
+                        {%endfor%}    
+
+                    </table>
+                    <table class="table cart-table table-responsive-md">
+                        <tfoot>
+                            <tr>
+                                <td>total price :</td>
+                                <td>
+                                    <h2>${{ request.user.get_total_cards_price }}</h2>
+                                </td>   
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+            <div class="row cart-buttons">
+                <div class="col-6"><a href="{% url 'category' %}" class="btn btn-solid">continue shopping</a></div>
+                <div class="col-6"><a href="{% url 'checkout'  %}" class="btn btn-solid">check out</a></div>
+            </div>
+        </div>
+    </section>
+    <!--section end-->
+
+
+{%endblock%}

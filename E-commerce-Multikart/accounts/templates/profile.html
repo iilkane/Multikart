@@ -1,0 +1,128 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+
+
+    <!-- breadcrumb start -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="page-title">
+                        <h2>profile</h2>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <nav aria-label="breadcrumb" class="theme-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">profile</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb End -->
+
+
+    <!-- personal deatail section start -->
+    <section class="contact-page register-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>PERSONAL DETAIL</h3>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <label for="name">First Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Your name" required=""
+                                value="{{ request.user.first_name }}" >
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email">Last Name</label>
+                            <input type="text" class="form-control" id="last-name" placeholder="Email" required=""
+                                value="{{ request.user.last_name }}" >
+                        </div>
+                        <div class="col-md-6"  style="margin-top: 20px;">
+                            <label for="review">Phone number</label>
+                            <input type="text" class="form-control" id="review" placeholder="Enter your number" required=""
+                                value="{{ request.user.number }}" >
+                        </div>
+                        <div class="col-md-6"  style="margin-top: 20px;">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="email" placeholder="Email" required=""
+                                value="{{ request.user.email }}">
+                        </div>
+                        
+                        <!-- <div class="col-md-12">
+                            <a href="{% url 'change_password' %}" class="btn btn-sm btn-solid" style="margin-top: 30px;">Change password</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section ends -->
+
+
+    <!-- address section start -->
+    <section class="contact-page register-page section-b-space">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>SHIPPING ADDRESS</h3>
+                    <form class="theme-form" method="post">
+                        {% include 'includes/message.html' %}
+                        {{form.non_field_errors}}
+                        {% csrf_token %}
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="name">flat / plot</label>
+                                    {{form.flat}}
+                                    {{form.flat.errors}}
+                            </div>
+                            <div class="col-md-6">
+                                <label for="name">Address *</label>
+                                    {{form.address}}
+                                    {{form.address.errors}}
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email">Zip Code *</label>
+                                    {{form.zip_code}}
+                                    {{form.zip_code.errors}}
+                            </div>
+                            <div class="col-md-6 select_input">
+                                <label for="review">Country *</label>
+                                <!-- <select class="form-control" size="1">
+                                    <option value="India">India</option>
+                                    <option value="UAE">UAE</option>
+                                    <option value="U.K">U.K</option>
+                                    <option value="US">US</option>
+                                </select> -->
+                                    {{form.country}}
+                                    {{form.country.errors}}
+                            </div>
+                            <div class="col-md-6">
+                                <label for="review">City *</label>
+                                    {{form.city}}
+                                    {{form.city.errors}}
+                            </div>
+                            <div class="col-md-6">
+                                <label for="review">Region/State *</label>
+                                    {{form.region}}
+                                    {{form.region.errors}}
+                            </div>
+                            <div class="col-md-12">
+                                <button class="btn btn-sm btn-solid" type="submit">Save setting</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col-md-12">
+                        <a href="{% url 'change_password' %}" class="btn btn-sm btn-solid" style="margin-top: -67px; margin-left: 150px;" >Change password</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section ends -->
+{%endblock%}

@@ -1,0 +1,323 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 15:31+0400\n"
+"PO-Revision-Date: 2024-03-04 16:22+0000\n"
+"Last-Translator:   <ilkaneisayeva2000@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\accounts\froms.py:13 .\accounts\froms.py:43
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: .\accounts\froms.py:17 .\accounts\froms.py:51
+msgid "Password"
+msgstr "Пароль"
+
+#: .\accounts\froms.py:35
+msgid "First  Name"
+msgstr "Имя"
+
+#: .\accounts\froms.py:39
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: .\accounts\froms.py:47
+msgid "Email"
+msgstr "Электронная почта"
+
+#: .\blog\forms.py:21
+msgid "Enter  Your  First  Name"
+msgstr "Введите ваше имя"
+
+#: .\blog\forms.py:25
+msgid "Enter Your Last Name"
+msgstr "Введите вашу фамилию"
+
+#: .\blog\forms.py:29
+msgid "Enter Your Number"
+msgstr "Введите свой номер"
+
+#: .\blog\forms.py:33
+msgid "Enter Your Email"
+msgstr "Введите свой e-mail"
+
+#: .\blog\forms.py:37 .\core\forms.py:19
+msgid "Write Your Message"
+msgstr "Напишите свое сообщение"
+
+#: .\blog\views.py:22
+msgid "Successfully sent!"
+msgstr "Успешно отправлено!"
+
+#: .\core\templates\base.html:62
+msgid "Welcome to Our store Multikart"
+msgstr "Добро пожаловать в наш магазин Multikart"
+
+#: .\core\templates\base.html:63
+msgid "Call Us: 123 - 456 - 7890"
+msgstr "Позвоните нам: 123 - 456 - 7890"
+
+#: .\core\templates\base.html:72
+msgid "My Account"
+msgstr "Мой счет"
+
+#: .\core\templates\base.html:77
+msgid "Login"
+msgstr "Вход в систему"
+
+#: .\core\templates\base.html:79
+msgid "Logout"
+msgstr "Выход из системы"
+
+#: .\core\templates\base.html:102
+msgid "Back"
+msgstr "Назад"
+
+#: .\core\templates\base.html:105
+msgid "clothing"
+msgstr "одежда"
+
+#: .\core\templates\base.html:152
+msgid "bags"
+msgstr "сумки"
+
+#: .\core\templates\base.html:167
+msgid "footwear"
+msgstr "обувь"
+
+#: .\core\templates\base.html:174
+msgid "watches"
+msgstr "часы"
+
+#: .\core\templates\base.html:175
+msgid "accessories"
+msgstr "аксессуары"
+
+#: .\core\templates\base.html:207
+msgid "house of design"
+msgstr "дом дизайна"
+
+#: .\core\templates\base.html:208
+msgid "beauty & personal care"
+msgstr "красота и личный уход"
+
+#: .\core\templates\base.html:223
+msgid "home & decor"
+msgstr "дом и декор"
+
+#: .\core\templates\base.html:224
+msgid "kitchen"
+msgstr "кухня"
+
+#: .\core\templates\base.html:244
+msgid "Home"
+msgstr "домашняя страница"
+
+#: .\core\templates\base.html:307
+msgid "shop"
+msgstr "магазин"
+
+#: .\core\templates\base.html:325
+msgid "product"
+msgstr "продукт"
+
+#: .\core\templates\base.html:368
+msgid "features"
+msgstr "особенности"
+
+#: .\core\templates\base.html:369
+msgid "new "
+msgstr "новый"
+
+#: .\core\templates\base.html:493
+msgid "pages"
+msgstr "страницы"
+
+#: .\core\templates\base.html:544
+msgid "blog"
+msgstr "блог"
+
+#: .\core\templates\base.html:590
+msgid "language"
+msgstr "язык"
+
+#: .\core\templates\base.html:592
+msgid "english"
+msgstr "английский"
+
+#: .\core\templates\base.html:593
+msgid "azerbaijan"
+msgstr "азербайджан"
+
+#: .\core\templates\base.html:610
+msgid "currency"
+msgstr "валюта"
+
+#: .\core\templates\base.html:613
+msgid "rupees"
+msgstr "рупии"
+
+#: .\core\templates\base.html:614
+msgid "pound"
+msgstr "фунт"
+
+#: .\core\templates\base.html:615
+msgid "doller"
+msgstr "доллер"
+
+#: .\core\templates\base.html:688
+msgid "KNOW IT ALL FIRST!"
+msgstr "УЗНАЙТЕ ВСЕ ПЕРВЫМИ!"
+
+#: .\core\templates\base.html:689
+msgid "Never Miss Anything From Multikart By Signing Up To Our Newsletter."
+msgstr ""
+"Никогда не пропускайте ничего из Multikart, подписавшись на нашу рассылку."
+
+#: .\core\templates\base.html:739
+msgid "catagories"
+msgstr "каталоги"
+
+#: .\core\templates\base.html:755
+msgid "why we choose"
+msgstr "почему мы выбираем"
+
+#: .\core\templates\base.html:771
+msgid "store information"
+msgstr "информация о магазине"
+
+#: .\core\templates\base.html:775
+msgid "Multikart Demo Store, Demo store India 345-659"
+msgstr ""
+"Демонстрационный магазин Multikart, демонстрационный магазин Индия 345-659"
+
+#: .\core\templates\base.html:777
+msgid "Call Us: 123-456-7898"
+msgstr "Позвоните нам: 123-456-7898"
+
+#: .\core\templates\base.html:778
+msgid "Support@Fiot.com"
+msgstr "Support@Fiot.com"
+
+#: .\core\templates\base.html:792
+msgid " 2017-18 themeforest powered by pixelstrap"
+msgstr "2017-18 themeforest на базе pixelstrap"
+
+#: .\core\templates\index.html:245 .\core\templates\index.html:263
+msgid "welcome to fashion"
+msgstr "Добро пожаловать в моду"
+
+#: .\core\templates\index.html:246
+msgid "men fashion"
+msgstr "мужская мода"
+
+#: .\core\templates\index.html:247 .\core\templates\index.html:265
+msgid "shop now"
+msgstr "магазин"
+
+#: .\core\templates\index.html:264
+msgid "women fashion"
+msgstr "женская мода"
+
+#: .\core\templates\index.html:291
+#, python-format
+msgid " save 30%% "
+msgstr "экономия 30%"
+
+#: .\core\templates\index.html:292
+msgid "men"
+msgstr "мужчины"
+
+#: .\core\templates\index.html:307
+msgid " save 60%% "
+msgstr "экономия 60%"
+
+#: .\core\templates\index.html:308
+msgid "women"
+msgstr "женщины"
+
+#: .\core\templates\index.html:322 .\core\templates\index.html:407
+msgid "special offer"
+msgstr "специальное предложение"
+
+#: .\core\templates\index.html:323
+msgid "top collection"
+msgstr "лучшая коллекция"
+
+#: .\core\templates\index.html:406
+msgid "fashion trends"
+msgstr "модные тенденции"
+
+#: .\core\templates\index.html:419
+msgid "exclusive products"
+msgstr "эксклюзивные продукты"
+
+#: .\core\templates\index.html:420
+msgid "special products"
+msgstr "специальные продукты"
+
+#: .\core\templates\index.html:428
+msgid "New Products"
+msgstr "Новые продукты"
+
+#: .\core\templates\index.html:429
+msgid "Featured Products"
+msgstr "Популярные товары"
+
+#: .\core\templates\index.html:430
+msgid "Best Sellers"
+msgstr "Лучшие продавцы"
+
+#: .\core\templates\index.html:438 .\core\templates\index.html:640
+msgid "new"
+msgstr "новый"
+
+#: .\core\templates\index.html:439 .\core\templates\index.html:641
+msgid "on sale"
+msgstr "в продаже"
+
+#: .\core\templates\index.html:702
+msgid "free shipping"
+msgstr "бесплатная доставка"
+
+#: .\core\templates\index.html:703
+msgid "free shipping world wide"
+msgstr "бесплатная доставка по всему миру"
+
+#: .\core\templates\index.html:732
+msgid "24 X 7 service"
+msgstr "Обслуживание 24 X 7"
+
+#: .\core\templates\index.html:733
+msgid "online service for new customer"
+msgstr "онлайн-сервис для новых клиентов"
+
+#: .\core\templates\index.html:759
+msgid "festival offer"
+msgstr "фестивальное предложение"
+
+#: .\core\templates\index.html:760
+msgid "new online special festival offer"
+msgstr "Новое специальное фестивальное предложение онлайн"
+
+#: .\core\templates\index.html:775
+msgid "Recent Story"
+msgstr "Недавняя история"
+
+#: .\core\templates\index.html:776
+msgid "from the blog"
+msgstr "из блога"

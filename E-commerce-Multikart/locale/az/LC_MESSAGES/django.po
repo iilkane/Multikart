@@ -1,0 +1,375 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-07 13:48+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\accounts\froms.py:14 .\accounts\froms.py:50
+msgid "Username"
+msgstr "İstifadəçi adı"
+
+#: .\accounts\froms.py:18 .\accounts\froms.py:58
+msgid "Password"
+msgstr "Şifrə"
+
+#: .\accounts\froms.py:42
+msgid "First  Name"
+msgstr "Ad"
+
+#: .\accounts\froms.py:46
+msgid "Last Name"
+msgstr "Soyad"
+
+#: .\accounts\froms.py:54
+msgid "Email"
+msgstr "Email"
+
+#: .\accounts\froms.py:93
+msgid "Company name"
+msgstr ""
+
+#: .\accounts\froms.py:97
+msgid "Address"
+msgstr ""
+
+#: .\accounts\froms.py:101
+msgid "Zip_code"
+msgstr ""
+
+#: .\accounts\froms.py:105
+msgid "Country"
+msgstr ""
+
+#: .\accounts\froms.py:109
+msgid "City"
+msgstr ""
+
+#: .\accounts\froms.py:113
+msgid "Region"
+msgstr ""
+
+#: .\accounts\froms.py:121
+#, fuzzy
+#| msgid "Password"
+msgid "Old Password"
+msgstr "Şifrə"
+
+#: .\accounts\froms.py:123
+#, fuzzy
+#| msgid "Password"
+msgid "New Password"
+msgstr "Şifrə"
+
+#: .\accounts\froms.py:125
+msgid "Conform New Password"
+msgstr ""
+
+#: .\accounts\views.py:130
+msgid "Successfully updated shipping address!"
+msgstr ""
+
+#: .\accounts\views.py:134
+msgid "Successfully added shipping address!"
+msgstr ""
+
+#: .\blog\forms.py:21
+msgid "Enter  Your  First  Name"
+msgstr "Adınızı daxil edin"
+
+#: .\blog\forms.py:25
+msgid "Enter Your Last Name"
+msgstr "Soyadınızı daxil edin"
+
+#: .\blog\forms.py:29
+msgid "Enter Your Number"
+msgstr "Nömrənizi daxil edin"
+
+#: .\blog\forms.py:33
+msgid "Enter Your Email"
+msgstr "E-poçtunuzu daxil edin"
+
+#: .\blog\forms.py:37 .\core\forms.py:20
+msgid "Write Your Message"
+msgstr "Mesajınızı Yazın"
+
+#: .\blog\views.py:24
+msgid "Successfully sent!"
+msgstr "Uğurla göndərildi!"
+
+#: .\core\templates\base.html:75
+msgid "Welcome to Our store Multikart"
+msgstr "Multikart mağazamıza xoş gəlmisiniz"
+
+#: .\core\templates\base.html:76
+msgid "Call Us: 123 - 456 - 7890"
+msgstr "Bizə zəng edin: 123 - 456 - 7890"
+
+#: .\core\templates\base.html:85
+msgid "My Account"
+msgstr "Mənim Hesabım"
+
+#: .\core\templates\base.html:89
+msgid "Logout"
+msgstr "Çıxış"
+
+#: .\core\templates\base.html:91
+msgid "Login"
+msgstr "Daxil ol"
+
+#: .\core\templates\base.html:116
+msgid "Back"
+msgstr "Geri"
+
+#: .\core\templates\base.html:170
+msgid "bags"
+msgstr "çantalar"
+
+#: .\core\templates\base.html:185
+msgid "footwear"
+msgstr "ayaqqabılar"
+
+#: .\core\templates\base.html:192
+msgid "watches"
+msgstr "saatlar"
+
+#: .\core\templates\base.html:193
+msgid "accessories"
+msgstr "aksesuarlar"
+
+#: .\core\templates\base.html:225
+msgid "house of design"
+msgstr "ev dizaynı"
+
+#: .\core\templates\base.html:226
+msgid "beauty & personal care"
+msgstr "gözəllik və şəxsi qulluq"
+
+#: .\core\templates\base.html:241
+msgid "home & decor"
+msgstr "ev & dekorasiya"
+
+#: .\core\templates\base.html:242
+msgid "kitchen"
+msgstr "mətbəx"
+
+#: .\core\templates\base.html:264
+msgid "Home"
+msgstr "ana səhife"
+
+#: .\core\templates\base.html:327
+msgid "shop"
+msgstr "mağaza"
+
+#: .\core\templates\base.html:348
+msgid "product"
+msgstr "məhsullar"
+
+#: .\core\templates\base.html:391
+msgid "contact"
+msgstr "kontakt"
+
+#: .\core\templates\base.html:393
+msgid "features "
+msgstr "xüsusiyyətləri"
+
+#: .\core\templates\base.html:394
+msgid "new "
+msgstr "yeni"
+
+#: .\core\templates\base.html:422
+msgid "My Profile"
+msgstr "Mənim Hesabım"
+
+#: .\core\templates\base.html:462
+msgid "language"
+msgstr "dil"
+
+#: .\core\templates\base.html:464
+msgid "english"
+msgstr "ingiliz"
+
+#: .\core\templates\base.html:465
+msgid "azerbaijan"
+msgstr "azerbaycan"
+
+#: .\core\templates\base.html:482
+msgid "currency"
+msgstr "Valyuta"
+
+#: .\core\templates\base.html:485
+msgid "rupees"
+msgstr "rupi"
+
+#: .\core\templates\base.html:486
+msgid "pound"
+msgstr "funt"
+
+#: .\core\templates\base.html:487
+msgid "doller"
+msgstr "dollar"
+
+#: .\core\templates\base.html:548
+msgid "KNOW IT ALL FIRST!"
+msgstr "İLK ÖNCE BUNU BİLİN!"
+
+#: .\core\templates\base.html:549
+msgid "Never Miss Anything From Multikart By Signing Up To Our Newsletter."
+msgstr "Bülletenimizə Qeydiyyatdan Keçməklə Multikartdan heç nəyi qaçırmayın."
+
+#: .\core\templates\base.html:599
+msgid "catagories"
+msgstr "kateqoriyalar"
+
+#: .\core\templates\base.html:615
+msgid "why we choose"
+msgstr "niyə seçirik"
+
+#: .\core\templates\base.html:631
+msgid "store information"
+msgstr "məlumat saxlamaq"
+
+#: .\core\templates\base.html:635
+msgid "Multikart Demo Store, Demo store India 345-659"
+msgstr "Multikart Demo Store, Demo mağaza Hindistan 345-659"
+
+#: .\core\templates\base.html:637
+msgid "Call Us: 123-456-7898"
+msgstr "Bizə zəng edin: 123-456-7898"
+
+#: .\core\templates\base.html:638
+msgid "Support@Fiot.com"
+msgstr "Support@Fiot.com"
+
+#: .\core\templates\base.html:652
+msgid " 2017-18 themeforest powered by pixelstrap"
+msgstr "2017-18 themeforest pixelstrap ilə təchiz edilmişdir"
+
+#: .\core\templates\index.html:245 .\core\templates\index.html:263
+msgid "welcome to fashion"
+msgstr "modaya xoş gəldiniz"
+
+#: .\core\templates\index.html:246
+msgid "men fashion"
+msgstr "kişi modası"
+
+#: .\core\templates\index.html:247 .\core\templates\index.html:265
+msgid "shop now"
+msgstr "mağaza"
+
+#: .\core\templates\index.html:264
+msgid "women fashion"
+msgstr "qadın modası"
+
+#: .\core\templates\index.html:291
+#, fuzzy, python-format
+#| msgid " save 30%% "
+msgid " save 30%% "
+msgstr "30% endirim"
+
+#: .\core\templates\index.html:292
+msgid "men"
+msgstr "kişilər"
+
+#: .\core\templates\index.html:307
+#, fuzzy, python-format
+#| msgid " save 60%% "
+msgid " save 60%% "
+msgstr "60% endirim"
+
+#: .\core\templates\index.html:308
+msgid "women"
+msgstr "qadinlar"
+
+#: .\core\templates\index.html:322 .\core\templates\index.html:410
+msgid "special offer"
+msgstr "xüsusi təklif"
+
+#: .\core\templates\index.html:323
+msgid "top collection"
+msgstr "top kolleksiya"
+
+#: .\core\templates\index.html:409
+msgid "fashion trends"
+msgstr "moda trendleri"
+
+#: .\core\templates\index.html:422
+msgid "exclusive products"
+msgstr "eksklüziv məhsullar"
+
+#: .\core\templates\index.html:423
+msgid "special products"
+msgstr "xüsusi məhsullar"
+
+#: .\core\templates\index.html:431
+msgid "New Products"
+msgstr "yeni məhsullar"
+
+#: .\core\templates\index.html:432
+msgid "Best Sellers"
+msgstr "Ən  çox satılanlar"
+
+#: .\core\templates\index.html:440
+msgid "new"
+msgstr "yeni"
+
+#: .\core\templates\index.html:493
+msgid "on sale"
+msgstr "satışta"
+
+#: .\core\templates\index.html:560
+msgid "free shipping"
+msgstr "pulsuz çatdırılma"
+
+#: .\core\templates\index.html:561
+msgid "free shipping world wide"
+msgstr "dünya üzrə pulsuz çatdırılma"
+
+#: .\core\templates\index.html:590
+msgid "24 X 7 service"
+msgstr "7x24 xidmət"
+
+#: .\core\templates\index.html:591
+msgid "online service for new customer"
+msgstr "yeni müştəri üçün onlayn xidmət"
+
+#: .\core\templates\index.html:617
+msgid "festival offer"
+msgstr "xüsusi təklif"
+
+#: .\core\templates\index.html:618
+msgid "new online special festival offer"
+msgstr "yeni onlayn xüsusi festival təklifi"
+
+#: .\core\templates\index.html:633
+msgid "Recent Story"
+msgstr "Son Hekayə"
+
+#: .\core\templates\index.html:634
+msgid "from the blog"
+msgstr "blogdan"
+
+#~ msgid "clothing"
+#~ msgstr "geyimler"
+
+#~ msgid "pages"
+#~ msgstr "səhifələr"
+
+#~ msgid "blog"
+#~ msgstr "blog"
+
+#~ msgid "Featured Products"
+#~ msgstr "Seçilmiş Məhsullar"

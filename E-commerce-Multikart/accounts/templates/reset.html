@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+
+
+<style>
+    input[type='text'],
+    input[type='password'] {
+        min-width: 24rem;
+        width: 100%;
+        padding: 1.2rem 1.5rem;
+        border-radius: 0.5rem;
+
+    }
+
+
+    
+
+</style>
+
+
+    <!-- section start-->
+    <section class="pwd-page section-b-space">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <h2>Enter new password</h2>
+                    <p>Please enter your new password twice so we can verify you typed it in correctly.</p>
+
+
+                    <form class="theme-form" method="post">
+                        {% csrf_token %}
+                        {{form.as_p}}
+                        <input class="btn btn-solid" type="submit">
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section ends -->
+
+
+{%endblock%}
